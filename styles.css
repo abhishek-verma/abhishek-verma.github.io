@@ -41,6 +41,48 @@ body {
   pointer-events: none;
 }
 
+.shapes {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.shape {
+  position: absolute;
+  display: block;
+}
+
+.shape-orb {
+  top: 12%;
+  right: 12%;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, rgba(45, 212, 191, 0.22), transparent 68%);
+  filter: blur(2px);
+}
+
+.shape-ring {
+  top: 42%;
+  left: 6%;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 1px solid rgba(45, 212, 191, 0.28);
+  box-shadow: 0 0 0 18px rgba(45, 212, 191, 0.04);
+}
+
+.shape-line {
+  top: 18%;
+  left: 18%;
+  width: 160px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(45, 212, 191, 0.55), transparent);
+  transform-origin: left center;
+}
+
 .mono {
   font-family: var(--mono);
   font-size: 12px;
@@ -106,12 +148,6 @@ main {
 
 .hero {
   padding: 4.5rem 0 3.5rem;
-  animation: rise 0.7s ease both;
-}
-
-@keyframes rise {
-  from { opacity: 0; transform: translateY(12px); }
-  to { opacity: 1; transform: none; }
 }
 
 .tagline {
@@ -119,12 +155,19 @@ main {
   color: var(--accent);
 }
 
+.hero-title,
 .hero h1 {
   margin: 0;
   font-size: clamp(2.75rem, 8vw, 4.75rem);
   font-weight: 600;
   letter-spacing: -0.045em;
   line-height: 1.02;
+  overflow: hidden;
+}
+
+.hero-title .char {
+  display: inline-block;
+  will-change: transform, opacity;
 }
 
 .lede {
@@ -438,5 +481,6 @@ main {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .hero, .btn { animation: none !important; transition: none !important; }
+  .hero, .btn, .shape { animation: none !important; transition: none !important; }
+  .shapes { display: none; }
 }

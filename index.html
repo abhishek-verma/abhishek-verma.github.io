@@ -17,6 +17,11 @@
 </head>
 <body>
   <div class="grid-bg" aria-hidden="true"></div>
+  <div class="shapes" aria-hidden="true">
+    <span class="shape shape-orb"></span>
+    <span class="shape shape-ring"></span>
+    <span class="shape shape-line"></span>
+  </div>
 
   <nav class="nav">
     <a class="nav-mark" href="#">av</a>
@@ -31,7 +36,7 @@
   <main>
     <header class="hero">
       <p class="mono tagline">Staff Engineer · Founder · AI Platforms</p>
-      <h1>Abhishek Verma</h1>
+      <h1 class="hero-title">Abhishek Verma</h1>
       <p class="lede">
         Over 9 years building products from zero to millions of users,
         shipping AI systems at Amazon scale, and leading engineering orgs.
@@ -231,6 +236,9 @@
     <p class="mono"><a href="https://github.com/abhishek-verma/abhishek-verma.github.io">source</a></p>
   </footer>
 
-  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/split-type@0.3.4/umd/index.min.js"></script>
+  <script src="./main.js"></script>
 </body>
 </html>
