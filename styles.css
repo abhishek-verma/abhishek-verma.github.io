@@ -31,6 +31,16 @@ body {
   letter-spacing: -0.011em;
 }
 
+.atmosphere {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 70% 45% at 15% -10%, rgba(212, 255, 79, 0.07), transparent 55%),
+    radial-gradient(ellipse 50% 40% at 90% 10%, rgba(255, 255, 255, 0.03), transparent 50%);
+}
+
 .grain {
   position: fixed;
   inset: 0;
@@ -70,7 +80,8 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
   padding: 1.1rem 0;
   background: color-mix(in srgb, var(--bg) 80%, transparent);
   backdrop-filter: blur(16px);
-  border-bottom: 1px solid transparent;
+.nav.is-stuck {
+  border-bottom-color: var(--line);
 }
 
 .nav-mark {
@@ -240,6 +251,9 @@ main {
   min-height: 12rem;
   justify-content: flex-end;
 }
+.tile-wide {
+  grid-column: span 8;
+}
 .tile-lg h3 {
   margin: 0.35rem 0 0.55rem;
   font-family: var(--display);
@@ -363,7 +377,7 @@ main {
   text-transform: uppercase;
   color: var(--dim);
   border: 1px solid var(--line);
-  border-radius: 999px;
+  border-radius: 4px;
   padding: 0.28rem 0.55rem;
 }
 
@@ -501,12 +515,12 @@ main {
 .footer a:hover { color: var(--accent); }
 
 @media (max-width: 900px) {
-  .tile, .tile-lg { grid-column: span 6; }
+  .tile, .tile-lg, .tile-wide { grid-column: span 6; }
   .focus-grid { grid-template-columns: 1fr 1fr; }
 }
 
 @media (max-width: 720px) {
-  .tile, .tile-lg { grid-column: span 12; }
+  .tile, .tile-lg, .tile-wide { grid-column: span 12; }
   .builds { grid-template-columns: 1fr; }
   .focus-grid { grid-template-columns: 1fr; }
   .job summary {
