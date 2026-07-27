@@ -9,23 +9,19 @@
   <meta property="og:description" content="9+ years building AI platforms, agentic systems, and products from zero to millions of users." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://abhishek-verma.github.io/" />
-  <meta name="theme-color" content="#09090b" />
+  <meta name="theme-color" content="#050505" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  <div class="grid-bg" aria-hidden="true"></div>
-  <div class="shapes" aria-hidden="true">
-    <span class="shape shape-orb"></span>
-    <span class="shape shape-ring"></span>
-    <span class="shape shape-line"></span>
-  </div>
+  <div class="grain" aria-hidden="true"></div>
 
   <nav class="nav">
     <a class="nav-mark" href="#">av</a>
     <div class="nav-links">
+      <a href="#impact">Impact</a>
       <a href="#work">Work</a>
       <a href="#building">Building</a>
       <a href="#writing">Writing</a>
@@ -35,210 +31,357 @@
 
   <main>
     <header class="hero">
-      <p class="mono tagline">Staff Engineer · Founder · AI Platforms</p>
-      <h1 class="hero-title">Abhishek Verma</h1>
+      <p class="eyebrow">Staff Engineer · Founder · AI Platforms</p>
+      <h1>Abhishek <em>Verma</em></h1>
       <p class="lede">
-        Over 9 years building products from zero to millions of users,
-        shipping AI systems at Amazon scale, and leading engineering orgs.
-        Platforms that compound - agents, RAG, and architecture you can ship.
+        Entrepreneur and engineering leader with 9 years building and scaling
+        high-impact products and teams. From a student startup at 3M+ users,
+        through Amazon GenAI and fraud systems, to founding voice AI for hiring
+        and leading agentic engineering platforms.
       </p>
-      <div class="hero-meta">
-        <span class="mono">Bengaluru</span>
-        <span class="dot" aria-hidden="true"></span>
-        <span class="mono">Open to Staff / Director</span>
+      <div class="hero-row">
+        <span class="meta">Bengaluru</span>
+        <span class="meta-sep" aria-hidden="true"></span>
+        <span class="meta">Open to Staff / Director</span>
       </div>
-      <div class="hero-actions">
+      <div class="actions">
         <a class="btn" href="mailto:inpen.abhi@gmail.com">Email</a>
         <a class="btn btn-ghost" href="https://linkedin.com/in/abhi-vrma">LinkedIn</a>
         <a class="btn btn-ghost" href="https://github.com/abhishek-verma">GitHub</a>
+        <a class="btn btn-ghost" href="https://jrnull.substack.com">Writing</a>
       </div>
     </header>
 
     <section class="section" id="impact">
-      <p class="mono section-id">01 — Impact</p>
-      <div class="metrics">
-        <div><b>3M+</b><span>users founded</span></div>
-        <div><b>40+</b><span>engineers led</span></div>
-        <div><b>98%+</b><span>Graph RAG accuracy</span></div>
-        <div><b>5×</b><span>eng productivity</span></div>
-        <div><b>GenAI Kindle</b><span>first-gen at Amazon</span></div>
-        <div><b>&gt;99.99%</b><span>voice AI uptime</span></div>
-        <div><b>Fresh</b><span>fraud &amp; abuse</span></div>
-        <div><b>Featured on</b><span>Gizmodo · Lifehacker · XDA</span></div>
+      <div class="section-head">
+        <p class="eyebrow">01 / Impact</p>
+        <h2 class="section-title">Signal, not noise</h2>
+      </div>
+      <div class="bento">
+        <article class="tile tile-lg">
+          <p class="eyebrow">Flagship</p>
+          <h3>GenAI Kindle at Amazon</h3>
+          <p>
+            Led development of GenAI workflows for the first-generation GenAI-enabled
+            Kindle: LLMs, agentic execution, and safety safeguards for harmful or
+            biased content. Cross-team architecture, planning, and leadership of 5 SDEs.
+          </p>
+        </article>
+        <article class="tile">
+          <p class="stat">3M+</p>
+          <p>users from Inpen, a student-founded Android utilities startup featured on Gizmodo, Lifehacker, and XDA.</p>
+        </article>
+        <article class="tile">
+          <p class="stat">40+</p>
+          <p>engineers led at Interface.AI across feasibility → POC → pilot → production.</p>
+        </article>
+        <article class="tile">
+          <p class="stat">5×</p>
+          <p>engineering productivity via Auto Product Engineering - agentic feature delivery from specs + production data.</p>
+        </article>
+        <article class="tile">
+          <p class="stat">98%+</p>
+          <p>Graph RAG accuracy on high-density banking queries with evaluation benchmarks.</p>
+        </article>
+        <article class="tile">
+          <p class="stat">&gt;99.9%</p>
+          <p>uptime for Dobr.AI voice interview platform at thousands of concurrent sessions.</p>
+        </article>
       </div>
     </section>
 
     <section class="section" id="work">
-      <p class="mono section-id">02 — Experience</p>
+      <div class="section-head">
+        <p class="eyebrow">02 / Experience</p>
+        <h2 class="section-title">Where the work lived</h2>
+        <p class="section-note">Click a role for full scope, systems owned, and outcomes.</p>
+      </div>
+
       <div class="jobs">
-        <article class="job">
-          <div class="job-side">
-            <p class="mono">2024 — Now</p>
-            <img src="https://raw.githubusercontent.com/abhishek-verma/abhishek-verma/main/assets/logos/dobr.png" alt="" width="20" height="20" />
+        <details class="job" open>
+          <summary>
+            <span class="job-when">2024 – Present</span>
+            <span class="job-who">
+              <strong>Dobr.AI</strong>
+              <span>Founder &amp; CTO</span>
+            </span>
+            <span class="job-chev" aria-hidden="true"></span>
+          </summary>
+          <div class="job-panel">
+            <p class="job-lead">
+              Founded Dobr.AI to raise the standard of tech hiring: replace obsolete
+              interview frameworks and evaluate real-world skills instead of brand pedigree.
+            </p>
+            <ul>
+              <li>Built a voice-based AI interview agent for natural conversational technical interviews that adapt to candidate responses and task progress.</li>
+              <li>Architected a cloud-native AWS microservices platform for thousands of concurrent interviews with &gt;99.9% uptime.</li>
+              <li>Built an in-house agent orchestration framework with context-driven sub-agents for adaptive response generation, evaluation, and feedback - caching and preemptive processing to hold ~1.5s latency at low cost.</li>
+              <li>Shipped cheating-detection from behavioral signals (response cadence, fraud signals) and dynamic validation agents.</li>
+              <li>Designed a plugin system for new interview formats (machine coding, system design) and evaluation logic without core refactors.</li>
+            </ul>
+            <p class="tags"><span>Voice AI</span><span>Agents</span><span>AWS</span><span>Microservices</span><span>Latency</span></p>
           </div>
-          <div class="job-body">
-            <h2><a href="https://dobr.ai">Dobr.AI</a> <span>Founder &amp; CTO</span></h2>
-            <p>Voice AI interviewing. AWS microservices for thousands of concurrent sessions, agent orchestration at ~1.5s latency, behavioral cheating-detection.</p>
-          </div>
-        </article>
+        </details>
 
-        <article class="job">
-          <div class="job-side">
-            <p class="mono">2025 — 2026</p>
-            <img src="https://raw.githubusercontent.com/abhishek-verma/abhishek-verma/main/assets/logos/interface.png" alt="" width="20" height="20" />
+        <details class="job">
+          <summary>
+            <span class="job-when">2025 – 2026</span>
+            <span class="job-who">
+              <strong>Interface.AI</strong>
+              <span>Staff Software Engineer</span>
+            </span>
+            <span class="job-chev" aria-hidden="true"></span>
+          </summary>
+          <div class="job-panel">
+            <p class="job-lead">
+              Technical leader of a 40+ person engineering org. Architecture and execution
+              from feasibility and technical POC through pilot and production rollout -
+              90%+ on-time delivery and 70%+ pilot-to-production conversion.
+            </p>
+            <ul>
+              <li>Led the shift from traditional software engineering to an agentic engineering lifecycle with Auto Product Engineering: autonomously develops features from product specs and continuously improves production systems from real data.</li>
+              <li>Delivered a 5× engineering productivity gain without quality loss - three months of projects in two weeks.</li>
+              <li>Built a high-accuracy Graph RAG knowledge platform for banking, with evaluation benchmarks for high-density query scenarios at 98%+ accuracy when combined with Auto Product Engineering.</li>
+            </ul>
+            <p class="tags"><span>Staff IC</span><span>Graph RAG</span><span>Agentic SDLC</span><span>Banking AI</span><span>Org leadership</span></p>
           </div>
-          <div class="job-body">
-            <h2><a href="https://interface.ai">Interface.AI</a> <span>Staff Software Engineer</span></h2>
-            <p>Led 40+ person India eng org. Feasibility → production. Auto Product Engineering (5× productivity). Graph RAG for banking at 98%+ accuracy.</p>
-          </div>
-        </article>
+        </details>
 
-        <article class="job">
-          <div class="job-side">
-            <p class="mono">2020 — 2024</p>
-            <img src="https://raw.githubusercontent.com/abhishek-verma/abhishek-verma/main/assets/logos/amazon.png" alt="" width="20" height="20" />
+        <details class="job">
+          <summary>
+            <span class="job-when">2020 – 2024</span>
+            <span class="job-who">
+              <strong>Amazon</strong>
+              <span>Tech Lead</span>
+            </span>
+            <span class="job-chev" aria-hidden="true"></span>
+          </summary>
+          <div class="job-panel">
+            <p class="job-lead">
+              Tech Lead across GenAI Kindle, AWS self-checkout fraud &amp; abuse, and Amazon GO
+              ground-truthing / camera planning - architecture, planning, and teams of 4–5 SDEs.
+            </p>
+            <ul>
+              <li><strong>GenAI Kindle:</strong> first-generation GenAI-enabled Kindle workflows - robust model deployment, LLMs, agentic execution, and safeguards against harmful or biased content. Cross-team collaboration; led 5 SDEs.</li>
+              <li><strong>Fraud &amp; abuse (AWS self-checkout / Fresh):</strong> end-to-end suite tackling retail shrinkage ($94.5B industry loss in 2021) - theft detection, alerts, MLOps, continuous training/deployment, ground-truthing. Led 4 SDEs.</li>
+              <li><strong>Amazon GO receipt ground-truthing:</strong> cut associate effort 50% and metric turnaround 66% (3 days → 1 day).</li>
+              <li><strong>Camera planning automation:</strong> streamlined planning 60% and reduced SDE operational effort 95%.</li>
+            </ul>
+            <p class="tags"><span>GenAI</span><span>Fraud</span><span>MLOps</span><span>Retail</span><span>Kindle</span><span>Leadership</span></p>
           </div>
-          <div class="job-body">
-            <h2>Amazon <span>Tech Lead</span></h2>
-            <p>GenAI Kindle. Fraud &amp; abuse for Amazon Fresh / AWS self-checkout. GO receipt ground-truthing (3d → 1d). Led 4–5 SDEs.</p>
-          </div>
-        </article>
+        </details>
 
-        <article class="job">
-          <div class="job-side">
-            <p class="mono">2019</p>
-            <img src="https://raw.githubusercontent.com/abhishek-verma/abhishek-verma/main/assets/logos/blurbsh.png" alt="" width="20" height="20" />
+        <details class="job">
+          <summary>
+            <span class="job-when">2019</span>
+            <span class="job-who">
+              <strong>Blurbsh</strong>
+              <span>Founding Engineer</span>
+            </span>
+            <span class="job-chev" aria-hidden="true"></span>
+          </summary>
+          <div class="job-panel">
+            <ul>
+              <li>First engineer. Built and optimized mobile apps with modern architectural patterns.</li>
+              <li>Redesigned backend message routing to cut latency by &gt;30%.</li>
+            </ul>
+            <p class="tags"><span>Mobile</span><span>Backend</span><span>0→1</span></p>
           </div>
-          <div class="job-body">
-            <h2>Blurbsh <span>Founding Engineer</span></h2>
-            <p>First engineer. Mobile apps, backend routing redesign (&gt;30% latency cut).</p>
-          </div>
-        </article>
+        </details>
 
-        <article class="job">
-          <div class="job-side">
-            <p class="mono">2014 — 2017</p>
-            <img src="https://raw.githubusercontent.com/abhishek-verma/abhishek-verma/main/assets/logos/inpen.png" alt="" width="20" height="20" />
+        <details class="job">
+          <summary>
+            <span class="job-when">2014 – 2017</span>
+            <span class="job-who">
+              <strong>Inpen</strong>
+              <span>Founder</span>
+            </span>
+            <span class="job-chev" aria-hidden="true"></span>
+          </summary>
+          <div class="job-panel">
+            <p class="job-lead">
+              Student-founded mobile software startup focused on Android UX and productivity utilities.
+            </p>
+            <ul>
+              <li>Reached over 3 million users.</li>
+              <li>Covered by Gizmodo, Lifehacker, and XDA.</li>
+              <li>Recognized across platforms including IIT Madras and IIT Mandi, with global interest.</li>
+              <li>Only student speaker at the Official Docker Meetup, Hyderabad.</li>
+            </ul>
+            <p class="tags"><span>Android</span><span>Consumer</span><span>Growth</span></p>
           </div>
-          <div class="job-body">
-            <h2>Inpen <span>Founder</span></h2>
-            <p>Android utilities to <strong>3M+</strong> users. Gizmodo, Lifehacker, XDA.</p>
-          </div>
-        </article>
+        </details>
       </div>
     </section>
 
     <section class="section" id="building">
-      <p class="mono section-id">03 — Building</p>
-      <div class="projects">
-        <a class="project" href="https://github.com/abhishek-verma/Pane">
-          <img src="https://raw.githubusercontent.com/abhishek-verma/Pane/main/assets/branding/png/pane-poster-1280.png" alt="Pane" />
-          <div class="project-info">
-            <div>
-              <p class="mono">Open source</p>
-              <h2>Pane</h2>
-            </div>
-            <p>Browser with a soul. Local-first Chromium fork - agent, memory, skills, profiles. No cloud account.</p>
+      <div class="section-head">
+        <p class="eyebrow">03 / Building</p>
+        <h2 class="section-title">Active surface area</h2>
+      </div>
+      <div class="builds">
+        <article class="build">
+          <div class="build-top">
+            <p class="eyebrow">Open source</p>
+            <h3><a href="https://github.com/abhishek-verma/Pane">Pane</a></h3>
           </div>
-        </a>
-        <a class="project" href="https://loomstack.co">
-          <img src="https://raw.githubusercontent.com/abhishek-verma/abhishek-verma/main/assets/loomstack-poster-1280.png" alt="LoomStack" />
-          <div class="project-info">
-            <div>
-              <p class="mono">Early stage</p>
-              <h2>LoomStack</h2>
-            </div>
-            <p>Orchestration for AI-native engineering - context, policy, observability across the SDLC.</p>
+          <p>
+            Browser with a soul. A local-first Chromium fork that treats the agent,
+            memory, skills, and profiles as first-class - not bolted-on cloud chrome.
+            No account required to think with your own machine.
+          </p>
+          <p>
+            Built for people who want agentic browsing without surrendering context
+            to a SaaS inbox. Architecture favors on-device control, composable skills,
+            and profiles you actually own.
+          </p>
+          <p class="tags"><span>Chromium</span><span>Agents</span><span>Local-first</span><span>Privacy</span></p>
+        </article>
+        <article class="build">
+          <div class="build-top">
+            <p class="eyebrow">Early stage</p>
+            <h3><a href="https://loomstack.co">LoomStack</a></h3>
           </div>
-        </a>
+          <p>
+            Orchestration for AI-native engineering. Context, policy, and observability
+            across the SDLC - so agent runs are auditable, constrained, and useful
+            instead of a pile of chat transcripts.
+          </p>
+          <p>
+            Aimed at teams shipping with coding agents at scale: shared memory of
+            decisions, guardrails that match how you actually build, and visibility
+            into what the system did and why.
+          </p>
+          <p class="tags"><span>Orchestration</span><span>SDLC</span><span>Policy</span><span>Observability</span></p>
+        </article>
       </div>
     </section>
 
     <section class="section" id="focus">
-      <p class="mono section-id">04 — Focus</p>
-      <ul class="focus">
-        <li><span>Agentic systems &amp; voice AI</span><span class="mono">production agents</span></li>
-        <li><span>LLM / RAG platforms</span><span class="mono">graph rag · evals</span></li>
-        <li><span>Platform engineering</span><span class="mono">event-driven</span></li>
-        <li><span>Fraud, trust &amp; safety</span><span class="mono">retail scale</span></li>
-        <li><span>0→1 + Staff strategy</span><span class="mono">architecture</span></li>
-      </ul>
-    </section>
-
-    <section class="section" id="stack">
-      <p class="mono section-id">05 — Stack</p>
-      <div class="stack">
+      <div class="section-head">
+        <p class="eyebrow">04 / Focus</p>
+        <h2 class="section-title">What I optimize for</h2>
+      </div>
+      <div class="focus-grid">
         <div>
-          <p class="mono">Languages</p>
-          <p>Python, TypeScript, Java, Kotlin</p>
+          <h3>Agentic systems &amp; voice AI</h3>
+          <p>Production agents with latency budgets, evaluation loops, and behavioral fraud signals - not demos.</p>
         </div>
         <div>
-          <p class="mono">AI</p>
-          <p>LLMs, Agentic systems, Voice AI, Graph RAG, Evals, RAG</p>
+          <h3>LLM / RAG platforms</h3>
+          <p>Graph RAG, selective routing between SLM and LLM, eval harnesses that survive banking-grade density.</p>
         </div>
         <div>
-          <p class="mono">Backend</p>
-          <p>Node.js, FastAPI, Spring Boot, PostgreSQL, Redis, Event-driven</p>
+          <h3>Platform engineering</h3>
+          <p>Event-driven backends, AWS microservices, MLOps pipelines, and systems that stay up when traffic spikes.</p>
         </div>
         <div>
-          <p class="mono">Cloud</p>
-          <p>AWS, Docker, Kubernetes, Terraform</p>
+          <h3>Fraud, trust &amp; safety</h3>
+          <p>Retail-scale abuse prevention, ground truth platforms, and safeguards for GenAI content.</p>
         </div>
         <div>
-          <p class="mono">Frontend</p>
-          <p>React, Next.js</p>
+          <h3>0→1 and Staff strategy</h3>
+          <p>Founding through scale: architecture choices that compound, and orgs that can execute them.</p>
+        </div>
+        <div>
+          <h3>Education &amp; craft</h3>
+          <p>BIT Mesra, Computer Applications. Top 4% on Stack Overflow (2017–18). Still writing in public.</p>
         </div>
       </div>
     </section>
 
+    <section class="section" id="stack">
+      <div class="section-head">
+        <p class="eyebrow">05 / Stack</p>
+        <h2 class="section-title">Tools I reach for</h2>
+      </div>
+      <dl class="stack">
+        <div><dt>Languages</dt><dd>Python, TypeScript, Java, Kotlin</dd></div>
+        <div><dt>AI</dt><dd>LLMs, agentic systems, voice AI, Graph RAG, evals, selective SLM/LLM routing</dd></div>
+        <div><dt>Backend</dt><dd>Node.js, FastAPI, Spring Boot, PostgreSQL, Redis, event-driven services</dd></div>
+        <div><dt>Cloud</dt><dd>AWS, Docker, Kubernetes, Terraform, MLOps pipelines</dd></div>
+        <div><dt>Frontend</dt><dd>React, Next.js</dd></div>
+      </dl>
+    </section>
+
     <section class="section" id="writing">
-      <p class="mono section-id">06 — Writing</p>
-      <p class="writing-note">On <a href="https://jrnull.substack.com">Substack</a> · <a href="https://substack.com/@vrabhi">@vrabhi</a></p>
-      <div class="projects">
-        <a class="project" href="https://jrnull.substack.com/p/microsoft-killed-claude-code-for">
-          <img src="https://substackcdn.com/image/fetch/$s_!et78!,w_440,h_280,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0d28bc7e-dc5f-454a-be96-5f0fe6bbd18d_1848x1228.png" alt="" />
-          <div class="project-info">
-            <div>
-              <p class="mono">2026</p>
-              <h2>Microsoft killed Claude Code for 100,000 engineers</h2>
-            </div>
-          </div>
-        </a>
-        <a class="project" href="https://jrnull.substack.com/p/architecting-llm-systems-for-scale">
-          <img src="https://substackcdn.com/image/fetch/$s_!tS-8!,w_440,h_280,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdde104ca-b227-4520-8ef0-9a4b8c7b767c_978x756.png" alt="" />
-          <div class="project-info">
-            <div>
-              <p class="mono">2025</p>
-              <h2>Architecting LLM systems for scale</h2>
-            </div>
-          </div>
-        </a>
+      <div class="section-head">
+        <p class="eyebrow">06 / Writing</p>
+        <h2 class="section-title">Notes from the work</h2>
+        <p class="section-note">On <a href="https://jrnull.substack.com">Jrnull</a> · <a href="https://substack.com/@vrabhi">@vrabhi</a></p>
+      </div>
+      <div class="articles">
+        <article class="article">
+          <p class="eyebrow">2026</p>
+          <h3>
+            <a href="https://jrnull.substack.com/p/microsoft-killed-claude-code-for">
+              Microsoft killed Claude Code for 100,000 engineers
+            </a>
+          </h3>
+          <p>
+            When a vendor decision can yank a coding agent from tens of thousands of
+            engineers overnight, the real story is not the model - it is dependency,
+            workflow lock-in, and how fragile “AI productivity” becomes when the
+            tool is rented. The piece walks through what broke, who felt it, and why
+            teams that treat agents as infrastructure need exit ramps, local control,
+            and evaluation that survives a provider change.
+          </p>
+          <p>
+            Written for engineers and leads who ship with agents daily and need to
+            think about continuity the same way they think about CI or cloud regions.
+          </p>
+          <a class="text-link" href="https://jrnull.substack.com/p/microsoft-killed-claude-code-for">Read on Substack →</a>
+        </article>
+        <article class="article">
+          <p class="eyebrow">2025</p>
+          <h3>
+            <a href="https://jrnull.substack.com/p/architecting-llm-systems-for-scale">
+              Architecting LLM systems for scale
+            </a>
+          </h3>
+          <p>
+            Handling noisy streams like logs or security events means trading cost against
+            accuracy. Large models reason well but burn money at millions of events;
+            small models are cheap but miss hard cases. The answer is selective routing:
+            an SLM handles the default path, uncertainty estimation decides when to escalate,
+            and an LLM only sees curated, retrieval-augmented context.
+          </p>
+          <p>
+            Drawing on AdaptiveLog: Bayesian confidence gates, error-case memory in prompts,
+            ~73% fewer LLM calls, and better accuracy on hard samples. A design pattern for
+            hybrid AI - place each model where it is strongest instead of one monolithic LLM.
+          </p>
+          <a class="text-link" href="https://jrnull.substack.com/p/architecting-llm-systems-for-scale">Read on Substack →</a>
+        </article>
       </div>
     </section>
 
     <section class="section contact" id="contact">
-      <p class="mono section-id">07 — Contact</p>
-      <h2>Let's build something that ships.</h2>
-      <p>
-        Open to Staff Engineer and Director of Engineering roles -
-        deep IC work, platform architecture, AI-native teams.
+      <div class="section-head">
+        <p class="eyebrow">07 / Contact</p>
+        <h2 class="section-title">Let's build something that ships.</h2>
+      </div>
+      <p class="lede">
+        Open to Staff Engineer and Director of Engineering roles - deep IC work,
+        platform architecture, and AI-native teams. Also happy to talk Pane, LoomStack,
+        or hard agent/RAG problems.
       </p>
-      <div class="hero-actions">
+      <div class="actions">
         <a class="btn" href="mailto:inpen.abhi@gmail.com">inpen.abhi@gmail.com</a>
         <a class="btn btn-ghost" href="https://linkedin.com/in/abhi-vrma">LinkedIn</a>
         <a class="btn btn-ghost" href="https://x.com/vrma_abhi">X</a>
+        <a class="btn btn-ghost" href="https://stackoverflow.com/users/3739837">Stack Overflow</a>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <p class="mono">© <span id="y"></span> Abhishek Verma</p>
-    <p class="mono"><a href="https://github.com/abhishek-verma/abhishek-verma.github.io">source</a></p>
+    <p class="meta">© <span id="y"></span> Abhishek Verma</p>
+    <p class="meta"><a href="https://github.com/abhishek-verma/abhishek-verma.github.io">source</a></p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/split-type@0.3.4/umd/index.min.js"></script>
   <script src="./main.js"></script>
 </body>
 </html>
