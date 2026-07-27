@@ -6,8 +6,8 @@
   --accent: #0f6b5c;
   --surface: rgba(255, 255, 255, 0.55);
   --max: 1120px;
-  --display: "Syne", system-ui, sans-serif;
-  --body: "DM Sans", system-ui, sans-serif;
+  --display: "IBM Plex Serif", "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+  --body: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 * { box-sizing: border-box; }
