@@ -292,9 +292,9 @@ main {
   cursor: pointer;
   display: grid;
   grid-template-columns: 9rem 1fr auto;
-  gap: 1.25rem;
-  align-items: center;
-  padding: 1.35rem 0.15rem;
+  gap: 1rem 1.25rem;
+  align-items: start;
+  padding: 1.25rem 0.15rem;
   transition: background 0.15s ease;
 }
 .job summary::-webkit-details-marker { display: none; }
@@ -310,6 +310,13 @@ main {
   letter-spacing: 0.04em;
   color: var(--dim);
   text-transform: uppercase;
+  padding-top: 0.35rem;
+}
+.job-main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-width: 0;
 }
 .job-who {
   display: flex;
@@ -326,6 +333,12 @@ main {
   color: var(--dim);
   font-size: 0.92rem;
 }
+.job-blurb {
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.45;
+  max-width: 42rem;
+}
 .job-chev {
   width: 10px;
   height: 10px;
@@ -334,10 +347,14 @@ main {
   transform: rotate(45deg);
   transition: transform 0.2s ease;
   margin-right: 0.35rem;
+  margin-top: 0.45rem;
 }
 .job[open] .job-chev {
   transform: rotate(-135deg);
   border-color: var(--accent);
+}
+.job[open] .job-blurb {
+  color: var(--dim);
 }
 
 .job-panel {
