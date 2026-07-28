@@ -226,6 +226,20 @@ main {
   font-size: 0.95rem;
 }
 
+.more-link {
+  margin: 1.25rem 0 0;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+.more-link a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.more-link a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .bento {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
