@@ -9,93 +9,116 @@
   <meta property="og:description" content="9+ years building AI platforms, agentic systems, and products from zero to millions of users." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://abhishek-verma.github.io/" />
-  <meta name="theme-color" content="#050505" />
+  <meta name="theme-color" content="#070707" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  <div class="atmosphere" aria-hidden="true"></div>
-  <div class="grain" aria-hidden="true"></div>
-
   <nav class="nav">
-    <a class="nav-mark" href="#">av</a>
-    <div class="nav-links">
-      <a href="#impact">Impact</a>
-      <a href="#work">Work</a>
-      <a href="#building">Building</a>
-      <a href="#writing">Writing</a>
-      <a href="#contact">Contact</a>
+    <div class="nav-inner">
+      <a class="nav-mark" href="#">abhishek verma</a>
+      <div class="nav-links">
+        <a href="#impact">Impact</a>
+        <a href="#work">Work</a>
+        <a href="#building">Building</a>
+        <a href="#writing">Writing</a>
+      </div>
+      <a class="btn btn-sm" href="mailto:inpen.abhi@gmail.com">Email <span aria-hidden="true">→</span></a>
     </div>
   </nav>
 
   <main>
     <header class="hero">
-      <p class="eyebrow">Staff Engineer · Founder · AI Platforms</p>
-      <h1>Abhishek <em>Verma</em></h1>
+      <p class="eyebrow">Staff Engineer · Founder · Bengaluru</p>
+      <h1>
+        Building agentic systems<br />
+        <em>that scales in production</em>
+      </h1>
       <p class="lede">
-        Entrepreneur and engineering leader with 9 years building and scaling
-        high-impact products and teams. From a student startup at 3M+ users,
-        through Amazon GenAI and fraud systems, to founding voice AI for hiring
-        and leading agentic engineering platforms.
+        <span>Entrepreneur and engineering leader with 9 years building and scaling high-impact products and teams.</span>
+        <span>From a student startup at 3M+ users, through leading teams at Amazon, to founding voice AI for hiring and leading agentic engineering platforms.</span>
       </p>
-      <div class="hero-row">
-        <span class="meta">Bengaluru</span>
-        <span class="meta-sep" aria-hidden="true"></span>
-        <span class="meta">Open to Staff / Director</span>
-      </div>
       <div class="actions">
-        <a class="btn" href="mailto:inpen.abhi@gmail.com">Email</a>
-        <a class="btn btn-ghost" href="https://linkedin.com/in/abhi-vrma">LinkedIn</a>
-        <a class="btn btn-ghost" href="https://github.com/abhishek-verma">GitHub</a>
-        <a class="btn btn-ghost" href="https://jrnull.substack.com">Writing</a>
+        <a class="btn" href="mailto:inpen.abhi@gmail.com">Get in touch <span aria-hidden="true">→</span></a>
+        <a class="text-cta" href="https://linkedin.com/in/abhi-vrma">LinkedIn ↗</a>
+        <a class="text-cta" href="https://github.com/abhishek-verma">GitHub ↗</a>
       </div>
+
+      <ol class="career-path" aria-label="Career path">
+        <li>
+          <p class="path-when">2014 – 17</p>
+          <p class="path-who">Inpen</p>
+          <p class="path-role">Founder · 3M+ users</p>
+        </li>
+        <li>
+          <p class="path-when">2019</p>
+          <p class="path-who">Blurbsh</p>
+          <p class="path-role">Founding Engineer</p>
+        </li>
+        <li>
+          <p class="path-when">2020 – 24</p>
+          <p class="path-who">Amazon</p>
+          <p class="path-role">Tech Lead · GenAI &amp; fraud</p>
+        </li>
+        <li>
+          <p class="path-when">2025 – 26</p>
+          <p class="path-who">Interface.AI</p>
+          <p class="path-role">Staff Engineer</p>
+        </li>
+        <li class="is-now">
+          <p class="path-when">2024 – Present</p>
+          <p class="path-who">Dobr.AI</p>
+          <p class="path-role">Founder &amp; CTO</p>
+        </li>
+      </ol>
     </header>
 
     <section class="section" id="impact">
-      <div class="section-head">
-        <p class="eyebrow">01 / Impact</p>
-        <h2 class="section-title">Signal, not noise</h2>
+      <div class="split-head">
+        <h2>Individual adoption is not organizational impact.</h2>
+        <p>
+          The work that matters is what survives production: latency budgets,
+          eval loops, fraud signals, and orgs that can execute. Here is the signal.
+        </p>
       </div>
-      <div class="bento">
-        <article class="tile tile-lg">
-          <p class="eyebrow">Flagship</p>
-          <h3>Agentic engineering at Interface.AI</h3>
-          <p>
-            Led a 40+ person eng org through feasibility → production while building
-            Auto Product Engineering: features from specs, continuous improvement from
-            production data, and a 5× productivity lift. Paired with a Graph RAG platform
-            for banking at 98%+ accuracy on high-density queries.
-          </p>
-        </article>
-        <article class="tile">
-          <p class="stat">3M+</p>
-          <p>users from Inpen, a student-founded Android utilities startup featured on Gizmodo, Lifehacker, and XDA.</p>
-        </article>
-        <article class="tile">
+
+      <article class="feature-card">
+        <p class="eyebrow accent">Flagship</p>
+        <h3>Agentic engineering at Interface.AI</h3>
+        <p>
+          Led a 40+ person engineering org into an agentic way of building software:
+          agents that take product specs to shipped features and keep improving systems
+          from real production data. Result: a 5× lift in engineering throughput,
+          without giving up quality.
+        </p>
+      </article>
+
+      <div class="metric-grid">
+        <article class="card">
           <p class="stat">Kindle</p>
           <p>Led GenAI workflows for Amazon’s first-generation GenAI-enabled Kindle - LLMs, agents, safety, 5 SDEs.</p>
         </article>
-        <article class="tile">
+        <article class="card">
           <p class="stat">5×</p>
-          <p>engineering productivity via Auto Product Engineering - three months of projects in two weeks.</p>
+          <p>Engineering productivity via Auto Product Engineering - three months of projects in two weeks.</p>
         </article>
-        <article class="tile">
+        <article class="card">
           <p class="stat">98%+</p>
           <p>Graph RAG accuracy on high-density banking queries with evaluation benchmarks.</p>
         </article>
-        <article class="tile tile-wide">
+        <article class="card">
           <p class="stat">&gt;99.9%</p>
-          <p>uptime for Dobr.AI voice interview platform at thousands of concurrent sessions · ~1.5s agent latency.</p>
+          <p>Uptime for Dobr.AI voice interview platform at thousands of concurrent sessions · ~1.5s agent latency.</p>
         </article>
       </div>
     </section>
 
     <section class="section" id="work">
-      <div class="section-head">
-        <p class="eyebrow">02 / Experience</p>
-        <h2 class="section-title">Where the work lived</h2>
+      <div class="split-head">
+        <h2>Where the work lived</h2>
+        <p>Founding, Staff IC, and Tech Lead roles across voice AI, agentic SDLC, GenAI, and fraud systems.</p>
       </div>
 
       <div class="jobs">
@@ -231,91 +254,75 @@
     </section>
 
     <section class="section" id="building">
-      <div class="section-head">
-        <p class="eyebrow">03 / Building</p>
-        <h2 class="section-title">Active surface area</h2>
+      <div class="split-head">
+        <h2>Active surface area</h2>
+        <p>Open-source systems for local-first agents and AI-native engineering orchestration.</p>
       </div>
       <div class="builds">
         <a class="build" href="https://github.com/abhishek-verma/Pane">
           <img class="media" src="https://raw.githubusercontent.com/abhishek-verma/Pane/main/assets/branding/png/pane-poster-1280.png" alt="Pane browser poster" width="640" height="320" loading="lazy" />
           <div class="build-body">
-            <div class="build-top">
-              <p class="eyebrow">Open source</p>
-              <h3>Pane</h3>
-            </div>
+            <p class="eyebrow accent">Open source</p>
+            <h3>Pane</h3>
             <p>
               Browser with a soul. A local-first Chromium fork that treats the agent,
               memory, skills, and profiles as first-class - not bolted-on cloud chrome.
-              No account required to think with your own machine.
             </p>
-            <p>
-              Built for people who want agentic browsing without surrendering context
-              to a SaaS inbox. Architecture favors on-device control, composable skills,
-              and profiles you actually own.
-            </p>
-            <p class="tags"><span>Chromium</span><span>Agents</span><span>Local-first</span><span>Privacy</span></p>
+            <span class="text-cta">View on GitHub ↗</span>
           </div>
         </a>
         <a class="build" href="https://loomstack.co">
           <img class="media" src="https://raw.githubusercontent.com/abhishek-verma/abhishek-verma/main/assets/loomstack-poster-1280.png" alt="LoomStack poster" width="640" height="320" loading="lazy" />
           <div class="build-body">
-            <div class="build-top">
-              <p class="eyebrow">Open source</p>
-              <h3>LoomStack</h3>
-            </div>
+            <p class="eyebrow accent">Open source</p>
+            <h3>LoomStack</h3>
             <p>
               Orchestration for AI-native engineering. Context, policy, and observability
-              across the SDLC - so agent runs are auditable, constrained, and useful
-              instead of a pile of chat transcripts.
+              across the SDLC - so agent runs are auditable and useful.
             </p>
-            <p>
-              Aimed at teams shipping with coding agents at scale: shared memory of
-              decisions, guardrails that match how you actually build, and visibility
-              into what the system did and why.
-            </p>
-            <p class="tags"><span>Orchestration</span><span>SDLC</span><span>Policy</span><span>Observability</span></p>
+            <span class="text-cta">Visit loomstack.co ↗</span>
           </div>
         </a>
       </div>
     </section>
 
     <section class="section" id="focus">
-      <div class="section-head">
-        <p class="eyebrow">04 / Focus</p>
-        <h2 class="section-title">What I optimize for</h2>
+      <div class="split-head">
+        <h2>What I optimize for</h2>
+        <p>Production systems, platform leverage, and craft that compounds.</p>
       </div>
       <div class="focus-grid">
-        <div>
+        <div class="card">
           <h3>Agentic systems &amp; voice AI</h3>
           <p>Production agents with latency budgets, evaluation loops, and behavioral fraud signals - not demos.</p>
         </div>
-        <div>
+        <div class="card">
           <h3>LLM / RAG platforms</h3>
           <p>Graph RAG, selective routing between SLM and LLM, eval harnesses that survive banking-grade density.</p>
         </div>
-        <div>
+        <div class="card">
           <h3>Platform engineering</h3>
           <p>Event-driven backends, AWS microservices, MLOps pipelines, and systems that stay up when traffic spikes.</p>
         </div>
-        <div>
+        <div class="card">
           <h3>Fraud, trust &amp; safety</h3>
           <p>Retail-scale abuse prevention, ground truth platforms, and safeguards for GenAI content.</p>
         </div>
-        <div>
+        <div class="card">
           <h3>0→1 and Staff strategy</h3>
           <p>Founding through scale: architecture choices that compound, and orgs that can execute them.</p>
         </div>
-        <div>
-          <h3>Education &amp; craft</h3>
-          <p>BIT Mesra, Computer Applications. Top 4% on Stack Overflow (2017–18). Still writing in public.</p>
+        <div class="card">
+          <h3>Builder in public</h3>
+          <p>Shipping Pane and LoomStack open source. Writing on Jrnull about agent economics and LLM systems at scale.</p>
         </div>
       </div>
     </section>
 
     <section class="section" id="stack">
-      <div class="section-head">
-        <p class="eyebrow">05 / Stack</p>
-        <h2 class="section-title">Tools I reach for</h2>
+      <div class="split-head">
+        <h2>Stack</h2>
+        <p>Tools I reach for</p>
       </div>
       <dl class="stack">
         <div><dt>Languages</dt><dd>Python, TypeScript, Java, Kotlin</dd></div>
@@ -327,9 +334,9 @@
     </section>
 
     <section class="section" id="writing">
-      <div class="section-head">
-        <p class="eyebrow">06 / Writing</p>
-        <h2 class="section-title">Recent writing</h2>
+      <div class="split-head">
+        <h2>Recent writing</h2>
+        <p>Notes on agent economics, org delivery, and LLM systems at scale.</p>
       </div>
       <div class="articles">
         <a class="article" href="https://jrnull.substack.com/p/microsoft-killed-claude-code-for">
@@ -339,17 +346,10 @@
             <h3>Microsoft killed Claude Code for 100,000 engineers</h3>
             <p>
               When a vendor decision can yank a coding agent from tens of thousands of
-              engineers overnight, the real story is not the model - it is dependency,
-              workflow lock-in, and how fragile “AI productivity” becomes when the
-              tool is rented. The piece walks through what broke, who felt it, and why
-              teams that treat agents as infrastructure need exit ramps, local control,
-              and evaluation that survives a provider change.
+              engineers overnight, the real story is dependency, workflow lock-in, and
+              how fragile AI productivity becomes when the tool is rented.
             </p>
-            <p>
-              Written for engineers and leads who ship with agents daily and need to
-              think about continuity the same way they think about CI or cloud regions.
-            </p>
-            <span class="text-link">Read on Substack →</span>
+            <span class="text-cta">Read on Substack ↗</span>
           </div>
         </a>
         <a class="article" href="https://jrnull.substack.com/p/architecting-llm-systems-for-scale">
@@ -358,52 +358,42 @@
             <p class="eyebrow">LLM systems · Selective routing</p>
             <h3>Architecting LLM systems for scale</h3>
             <p>
-              Handling noisy streams like logs or security events means trading cost against
-              accuracy. Large models reason well but burn money at millions of events;
-              small models are cheap but miss hard cases. The answer is selective routing:
-              an SLM handles the default path, uncertainty estimation decides when to escalate,
-              and an LLM only sees curated, retrieval-augmented context.
+              Selective routing: an SLM handles the default path, uncertainty estimation
+              decides when to escalate, and an LLM only sees curated context.
             </p>
-            <p>
-              Drawing on AdaptiveLog: Bayesian confidence gates, error-case memory in prompts,
-              ~73% fewer LLM calls, and better accuracy on hard samples. A design pattern for
-              hybrid AI - place each model where it is strongest instead of one monolithic LLM.
-            </p>
-            <span class="text-link">Read on Substack →</span>
+            <span class="text-cta">Read on Substack ↗</span>
           </div>
         </a>
       </div>
       <p class="more-link">
-        <a href="https://jrnull.substack.com">More on Jrnull →</a>
+        <a class="text-cta" href="https://jrnull.substack.com">More on Jrnull ↗</a>
       </p>
     </section>
 
     <section class="section contact" id="contact">
-      <div class="section-head">
-        <p class="eyebrow">07 / Contact</p>
-        <h2 class="section-title">Let's build something that ships.</h2>
-      </div>
+      <p class="eyebrow accent">Open to roles</p>
+      <h2>Let's build something that ships.</h2>
       <p class="lede">
         Open to Staff Engineer and Director of Engineering roles - deep IC work,
         platform architecture, and AI-native teams. Also happy to talk Pane, LoomStack,
         or hard agent/RAG problems.
       </p>
       <div class="actions">
-        <a class="btn" href="mailto:inpen.abhi@gmail.com">inpen.abhi@gmail.com</a>
-        <a class="btn btn-ghost" href="https://linkedin.com/in/abhi-vrma">LinkedIn</a>
-        <a class="btn btn-ghost" href="https://x.com/vrma_abhi">X</a>
-        <a class="btn btn-ghost" href="https://stackoverflow.com/users/3739837">Stack Overflow</a>
+        <a class="btn" href="mailto:inpen.abhi@gmail.com">inpen.abhi@gmail.com <span aria-hidden="true">→</span></a>
+        <a class="text-cta" href="https://linkedin.com/in/abhi-vrma">LinkedIn ↗</a>
+        <a class="text-cta" href="https://x.com/vrma_abhi">X ↗</a>
+        <a class="text-cta" href="https://stackoverflow.com/users/3739837">Stack Overflow ↗</a>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <p class="meta">© <span id="y"></span> Abhishek Verma</p>
-    <p class="meta"><a href="https://github.com/abhishek-verma/abhishek-verma.github.io">source</a></p>
+    <div class="footer-inner">
+      <p class="meta">© <span id="y"></span> Abhishek Verma</p>
+      <p class="meta"><a href="https://github.com/abhishek-verma/abhishek-verma.github.io">source</a></p>
+    </div>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
   <script src="./main.js"></script>
 </body>
 </html>
