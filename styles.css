@@ -149,7 +149,7 @@ main {
 .actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.75rem 1.25rem;
+  gap: 1rem 2rem;
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
